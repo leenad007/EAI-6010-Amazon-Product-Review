@@ -5,9 +5,13 @@ import uvicorn
 from pathlib import Path
 
 # Load the trained SVM model and TF-IDF vectorizer
-model_path = Path(r"svm_model.pkl")
-vectorizer_path = Path(r"tfidf_vectorizer.pkl")
+from pathlib import Path
 
+# Change the path to use an absolute path
+model_path = Path(__file__).parent / "svm_model.pkl"
+vectorizer_path = Path(__file__).parent / "tfidf_vectorizer.pkl"
+
+# Load the trained SVM model and TF-IDF vectorizer
 with open(model_path, "rb") as model_file:
     model = pickle.load(model_file)
 
