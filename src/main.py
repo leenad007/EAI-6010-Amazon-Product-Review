@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI backend URL
-API_URL = "http://127.0.0.1:8000/predict-text"
+API_URL = "https://amazon-product-review-eai6010-mod5.onrender.com/predict-text"
 
 # Streamlit UI with emoji 🎯
 st.title("📢 Amazon Product Review Sentiment Analysis")
