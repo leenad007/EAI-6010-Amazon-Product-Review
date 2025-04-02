@@ -1,12 +1,17 @@
 # Sentiment Analysis Microservice Deployment (Amazon Product Review)
  
 1. General Description of the Service
-The deployed microservice provides sentiment analysis for Amazon product reviews using a pre-trained SVM model with TF-IDF vectorization. This service determines whether a given text expresses a positive or negative sentiment.
+The deployed microservice provides sentiment analysis for Amazon product reviews using a pre-trained SVM model with TF-IDF vectorization. This service determines whether a given text expresses a
+positive or negative sentiment.
+
 •	Backend: FastAPI hosted on Render
+
 •	Frontend: Streamlit app for user interaction
 ________________________________________
 2. Service URL
+   
 •	FastAPI Backend: https://amazon-product-review-eai6010-mod5.onrender.com
+
 •	Streamlit Frontend: https://amazonreviewsentimentanalysis.streamlit.app/
 ________________________________________
 3. API Endpoints & Usage
