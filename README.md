@@ -44,11 +44,11 @@ For a user-friendly interface, the Streamlit frontend allows users to enter text
 4.	View the result (Positive 😊 or Negative 😞).
 
 5. Example Use Cases
-Input (Review Text)	API Output (Sentiment)
-"The battery lasts long and the design is great!"	"positive" 😊
-"Terrible quality! Broke within a week."	"negative" 😞
-"Fast shipping and excellent customer service!"	"positive" 😊
-"Not worth the price. Very disappointed."	"negative" 😞
+- Input (Review Text)	API Output (Sentiment)
+-> "The battery lasts long and the design is great!"	"positive" 😊
+-> "Terrible quality! Broke within a week."	"negative" 😞
+-> "Fast shipping and excellent customer service!"	"positive" 😊
+-> "Not worth the price. Very disappointed."	"negative" 😞
 ________________________________________
 6. Deployment Details
 Component	Technology Used
